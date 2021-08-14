@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a
+        {
+            width: 600px;
+            height: 600px;
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .color1 
+        {
+            width: 300px;
+            height: 300px;
+            background-color: yellow;
+            border-bottom-left-radius: 300px;
+            border-top-right-radius: 300px;
+        }
+        .color2
+        {
+            width: 300px;
+            height: 300px;
+            background-color:green;
+            top: 0px;
+            right:0px;
+            border-top-left-radius: 300px;
+            border-bottom-right-radius: 300px;
+        }
+        .color3
+        {
+            width: 300px;
+            height: 300px;
+            background-color: darkcyan;
+            bottom: 0px;
+            left: 0px;
+            border-top-left-radius: 300px;
+            border-bottom-right-radius: 300px;
+           
+        }
+        .color4
+        {
+            width: 300px;
+            height: 300px;
+            background-color: darkgoldenrod;
+            bottom: 0px;
+            right: 0px;
+            border-bottom-left-radius: 300px;
+            border-top-right-radius: 300px;
+        }
+      .common
+      {
+          width: 300px;
+          height: 300px;
+          position: absolute;
+      }
+      .a:hover .c1{
+          background-color: hotpink;
+      }
+      .a:hover .c2
+      {
+          background-color: indigo;
+      }
+      .a:hover .c3
+      {
+          background-color:darkred;
+      }
+      .a:hover .c4
+      {
+          background-color:darkturquoise;
+      }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="common c1 color1"></div>
+        <div class="common c2 color2"></div>
+        <div class="common c3 color3"></div>
+        <div class="common c4 color4"></div>
+
+    </div>
+</body>
+</html>
